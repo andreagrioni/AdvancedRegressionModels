@@ -373,7 +373,7 @@ Remember: a significance test with a significance threshold of alpha = 0.05 has 
 
 ### Compact Letter Display
 
-It is common to visualize the results of the post-hoc tests with the so-called **Compact Letter Display** (cld). This doesn't work with the base `TukeyHSD`{.R} function, so we will use the `multcomp`{.R} pacakge:
+It is common to visualize the results of the post-hoc tests with the so-called **Compact Letter Display** (cld). This doesn't work with the base `TukeyHSD`{.R} function, so we will use the `multcomp`{.R} package:
 
 ```{r chunk_chapter3_chunk37, echo=TRUE, eval=TRUE, fig.show='hide', message=FALSE, warning=FALSE}
 library(multcomp)
