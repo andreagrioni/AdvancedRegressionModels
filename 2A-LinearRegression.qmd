@@ -361,7 +361,7 @@ Thus, the general idea is: 1. ANOVA tells us if there is an effect of the variab
 
 Another common test performed on top of an ANOVA or a categorical predictor of an `lm()` is a so-called post-hoc test. Basically, a post-hoc test computes p-values for all possible combinations of factor levels, usually corrected for multiple testing:
 
-```{r chunk_chapter3_chunk36, echo=FALSE, eval=TRUE}
+```{r chunk_chapter3_chunk36, echo=TRUE, eval=TRUE}
 TukeyHSD(anov)
 ```
 
